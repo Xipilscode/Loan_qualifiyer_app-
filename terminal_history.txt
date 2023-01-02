@@ -1,0 +1,50 @@
+  460  git clone git@github.com:Xipilscode/Loan_qualifiyer_app.git
+  461  ls
+  462  cd Desktop
+  463  ls
+  464  cd Github_Upload/
+  465  ls
+  466  cd loan_qualifier_app/
+  467  ls
+  468  git clone git@github.com:Xipilscode/Loan_qualifiyer_app.git
+  469  ls
+  470  cd Github_uploader
+  471  pwd
+  472  Github_Uploader
+  473  cd Github_Upload
+  474  cd ..
+  475  ls
+  476  git clone git@github.com:Xipilscode/Loan_qualifiyer_app.git
+  477  cd loan_qualifier_app/
+  478  git clone git@github.com:Xipilscode/Loan_qualifiyer_app.git
+  479  git status
+  480  ls
+  481  conda activate dev
+  482  conda activate dev
+  483  conda activate dev
+  484  git config --global user.name Alex Likhachev
+  485  git config --global user.email xipilsmusic@gmail.com
+  486  git config --list
+  487  git clone https://github.com/Xipilscode/Loan_qualifiyer_app.git
+  488  git status
+  489  pwd
+  490  cd Desktop
+  491  pwd
+  492  cd Github_Upload/
+  493  pwd
+  494  ls
+  495  cd loan_qualifier_app
+  496  ls
+  497  git status
+  498  pwd
+  499  cd Desktop
+  500  cd Github_Upload/
+  501  ls
+  502  cd loan_qualifier_app/
+  503  ls
+  504  git clone git@github.com:Xipilscode/Loan_qualifiyer_app-.git
+  505  git clone git@github.com:Xipilscode/Loan_qualifiyer_app-.git
+  506  git clone https://github.com/Xipilscode/Loan_qualifiyer_app-.git
+  507  git clone https://github.com/Xipilscode/Loan_qualifiyer_app-.git
+  508  -T git@github.com
+  509  history 50 > terminal_history.txt
