@@ -1,12 +1,17 @@
 # Project Title
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This loan qualifier application is designed to help a lender determine their borrowers eligibility for various bank loans. It utilizes a CSV file containing information on the loans offered by different banks. When the user runs the application, they will be prompted to enter their own personal and financial information. The application will then analyze this information and compare it to the criteria for the loans in the CSV file. Any loans for which the borrower qualifies will be saved in a separate CSV file for the user to review. This tool is intended to make it easier for borrowers to compare their options and find the loan that best fits their needs.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This application is written with Python 3.7 and uses:
+   * sys module
+   * pathlib module
+   * fire library
+   * questionary library
+   
 
 ---
 
@@ -14,20 +19,48 @@ Describe the technologies required to use your project such as programming langu
 
 In this section, you should include detailed installation notes containing code blocks and screenshots.
 
+1. Create a new development environment called **loan_qualifier_app** and install the libraries contained in in Technologies description.
+* From your terminal instance, create a nev virtual environment called **loan_qualifier_app** using the following code:
+
+```python
+conda create -n loan_qualifier_app python=3.7 anaconda 
+```
+* Activate the new **loan_qualifier_app** environment as follows:
+
+```python
+conda activate loan_qualifier_app  
+```
+2. Open **app.py** and review Python scripts.  
+3. You'll be asked to enter a file path to a rate-sheet CSV file that contains data with a list of banks that offer loans.
+4. After you'll enter the path you'll be asked a series of questions to determine eligible loans.
+5. You'll be prompted if you want to save the list of data with eligible loans :
+   * If you want to save the data, you'll be prompted to ented the path for saving data in a separate SCV file.
+   * If not the system exits.  
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+### User Story
+* As a user, I need the ability to save the qualifying loans to a CSV file so    that I can share the results as a spreadsheet.
+
+### Acceptance Criteria
+* Given that I’m using the loan qualifier CLI, when I run the qualifier, then the tool should prompt the user to save the results as a CSV file.
+
+* Given that no qualifying loans exist, when prompting a user to save a file, then the program should notify the user and exit.
+
+* Given that I have a list of qualifying loans, when I’m prompted to save the results, then I should be able to opt out of saving the file.
+
+* Given that I have a list of qualifying loans, when I choose to save the loans, the tool should prompt for a file path to save the file.
+
+* Given that I’m using the loan qualifier CLI, when I choose to save the loans, then the tool should save the results as a CSV file.
 
 ---
 
 ## Contributors
-
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Brought to you by Alex Likhachev
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+MIT
