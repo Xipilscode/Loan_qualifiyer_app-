@@ -1,50 +1,288 @@
-  460  git clone git@github.com:Xipilscode/Loan_qualifiyer_app.git
-  461  ls
-  462  cd Desktop
-  463  ls
-  464  cd Github_Upload/
-  465  ls
-  466  cd loan_qualifier_app/
-  467  ls
-  468  git clone git@github.com:Xipilscode/Loan_qualifiyer_app.git
-  469  ls
-  470  cd Github_uploader
-  471  pwd
-  472  Github_Uploader
-  473  cd Github_Upload
-  474  cd ..
-  475  ls
-  476  git clone git@github.com:Xipilscode/Loan_qualifiyer_app.git
-  477  cd loan_qualifier_app/
-  478  git clone git@github.com:Xipilscode/Loan_qualifiyer_app.git
-  479  git status
-  480  ls
-  481  conda activate dev
-  482  conda activate dev
-  483  conda activate dev
-  484  git config --global user.name Alex Likhachev
-  485  git config --global user.email xipilsmusic@gmail.com
-  486  git config --list
-  487  git clone https://github.com/Xipilscode/Loan_qualifiyer_app.git
-  488  git status
-  489  pwd
-  490  cd Desktop
-  491  pwd
-  492  cd Github_Upload/
-  493  pwd
-  494  ls
-  495  cd loan_qualifier_app
-  496  ls
-  497  git status
-  498  pwd
-  499  cd Desktop
-  500  cd Github_Upload/
-  501  ls
-  502  cd loan_qualifier_app/
-  503  ls
-  504  git clone git@github.com:Xipilscode/Loan_qualifiyer_app-.git
-  505  git clone git@github.com:Xipilscode/Loan_qualifiyer_app-.git
-  506  git clone https://github.com/Xipilscode/Loan_qualifiyer_app-.git
-  507  git clone https://github.com/Xipilscode/Loan_qualifiyer_app-.git
-  508  -T git@github.com
-  509  history 50 > terminal_history.txt
+(base) MacBook-Pro-2:~ lexx$ ssh-keygen -t rsa -b 4096 -C "xipilsmusic@gmail.com" 
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/lexx/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/lexx/.ssh/id_rsa.
+Your public key has been saved in /Users/lexx/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:szgGL9cPoXFZUYCY/YSLD1lOiKWyOukLvJGfIolE+CE xipilsmusic@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|     o.= ooo.    |
+|    ..+ * ..     |
+|. . .  * +.      |
+|E..o  + oo.      |
+|.o... .oS        |
+|.+o  o *.+       |
+|B=  . B +        |
+|*o+ .+ . o       |
+|.+oo      .      |
++----[SHA256]-----+
+(base) MacBook-Pro-2:~ lexx$ eval "$(ssh-agent –s)"
+–s: No such file or directory
+(base) MacBook-Pro-2:~ lexx$ eval "$(ssh-agent -s)"
+Agent pid 2708
+(base) MacBook-Pro-2:~ lexx$ ssh-add ~/.ssh/id_rsa.pub
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for '/Users/lexx/.ssh/id_rsa.pub' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+(base) MacBook-Pro-2:~ lexx$ ssh-add ~/.ssh/id_rsa
+Identity added: /Users/lexx/.ssh/id_rsa (/Users/lexx/.ssh/id_rsa)
+(base) MacBook-Pro-2:~ lexx$ pbcoy < ~/.ssh/id_rsa.pub
+-bash: pbcoy: command not found
+(base) MacBook-Pro-2:~ lexx$ pbcopy < ~/.ssh/id_rsa.pub
+(base) MacBook-Pro-2:~ lexx$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+(base) MacBook-Pro-2:~ lexx$ 
+(base) MacBook-Pro-2:~ lexx$ pwd
+/Users/lexx
+(base) MacBook-Pro-2:~ lexx$ cd Desktop
+(base) MacBook-Pro-2:Desktop lexx$ ls
+01. NO KEY - 11A - 127.flac
+3. What order should you place?.png
+Ableton Live 10 Suite
+Ableton Live 9 Suite
+Adam roommate
+Ankur - Koinophobia
+BUSYA.wav
+Bash comands cheat sheet.png
+Busya
+CHITTHA_Mokṣamu Galada_180_G BHAIRAVI.wav
+FinTech-Workspace
+Firefox
+Github_Upload
+Google Chrome
+Kluchiki.docx
+LAB Assignment 7 - Slot Machine with Methods and a Class.pdf
+Logic Pro X
+Logo design.ai
+Psyntroduction PK  powered 1.3
+Psyntroduction PK  powered 2.0
+RM 2019 Project
+Ratatouille TECHHouse
+Reference_track.wav
+Remote Disc
+Saffire MixControl
+Screen Shot 2022-04-14 at 11.29.06 PM.png
+Screen Shot 2022-11-20 at 11.34.50 PM.png
+Screen Shot 2022-11-20 at 11.35.19 PM.png
+SoulseekQt
+The_final_battle_of_Veles_120_F#Aeolian2.13
+Traktor
+Traktor camelot wheel.jpeg
+Untitled.ipynb
+Use capital asset pricing model to find the rquired return 5.1.png
+VLC
+What does Schrödinger's Cat explain to us.mp3
+time-is-speeding-up-terence-mckenna-youtubemp3free.org.wav
+uTorrent
+(base) MacBook-Pro-2:Desktop lexx$ cd Github_Upload/
+(base) MacBook-Pro-2:Github_Upload lexx$ ls
+Starter_Code 3			loan_qualifier_app
+loan_analysis_calculator
+(base) MacBook-Pro-2:Github_Upload lexx$ cd loan_qualifier_app/
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../loan_analysis_calculator/loan_analyzer.py
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../Starter_Code 3/
+	TEST FILE.txt
+	terminal_history.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git clone git@github.com:Xipilscode/Loan_qualifiyer_app-.git
+Cloning into 'Loan_qualifiyer_app-'...
+remote: Enumerating objects: 51, done.
+remote: Counting objects: 100% (51/51), done.
+remote: Compressing objects: 100% (46/46), done.
+remote: Total 51 (delta 12), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (51/51), 16.19 KiB | 4.05 MiB/s, done.
+Resolving deltas: 100% (12/12), done.
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git add .
+warning: adding embedded git repository: loan_qualifier_app/Loan_qualifiyer_app-
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> loan_qualifier_app/Loan_qualifiyer_app-
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached loan_qualifier_app/Loan_qualifiyer_app-
+hint: 
+hint: See "git help submodule" for more information.
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git commit -m "pushing updated code"
+[master 0ada3cc] pushing updated code
+ 4 files changed, 118 insertions(+), 33 deletions(-)
+ create mode 160000 loan_qualifier_app/Loan_qualifiyer_app-
+ rewrite loan_qualifier_app/README.md (82%)
+ create mode 100644 loan_qualifier_app/TEST FILE.txt
+ create mode 100644 loan_qualifier_app/terminal_history.txt
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'origin'
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push 
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push orogin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'orogin'
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'origin'
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ ls
+Loan_qualifiyer_app-	app.py			terminal_history.txt
+README.md		data
+TEST FILE.txt		qualifier
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push Loan_qualifiyer_app
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream Loan_qualifiyer_app master
+
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push Loan_qualifiyer_app main
+error: src refspec main does not match any.
+error: failed to push some refs to 'Loan_qualifiyer_app'
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push loan_qualifiyer_app main
+error: src refspec main does not match any.
+error: failed to push some refs to 'loan_qualifiyer_app'
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git status 
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../loan_analysis_calculator/loan_analyzer.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../Starter_Code 3/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git add .
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git commit -m "pushing updated code"
+On branch master
+Changes not staged for commit:
+	modified:   ../loan_analysis_calculator/loan_analyzer.py
+
+Untracked files:
+	../Starter_Code 3/
+
+no changes added to commit
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git remote add origin git@ github.com/Xipilscode/Loan_qualifiyer_app.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git remote add git@ github.com/Xipilscode/Loan_qualifiyer_app.git
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git remote add origin git@github.com:Xipilscode/Loan_qualifiyer_app.git
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ git push --set-upstream origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ ls
+Loan_qualifiyer_app-	app.py			terminal_history.txt
+README.md		data
+TEST FILE.txt		qualifier
+(base) MacBook-Pro-2:loan_qualifier_app lexx$ cd Loan_qualifiyer_app-/
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git push --set-upstream origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:Xipilscode/Loan_qualifiyer_app-.git'
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git add origin https://github.com/Xipilscode/Loan_qualifiyer_app-.git
+fatal: pathspec 'origin' did not match any files
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git add origin git@github.com:Xipilscode/Loan_qualifiyer_app-.git
+fatal: pathspec 'origin' did not match any files
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git remote add origin git@github.com:Xipilscode/Loan_qualifiyer_app-.git
+fatal: remote origin already exists.
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git remote
+origin
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git remote -v
+origin	git@github.com:Xipilscode/Loan_qualifiyer_app-.git (fetch)
+origin	git@github.com:Xipilscode/Loan_qualifiyer_app-.git (push)
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git push origin git@github.com:Xipilscode/Loan_qualifiyer_app-.git 
+error: src refspec git@github.com does not match any.
+error: failed to push some refs to 'git@github.com:Xipilscode/Loan_qualifiyer_app-.git'
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git push git@github.com:Xipilscode/Loan_qualifiyer_app-.git 
+Everything up-to-date
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git commit -m "pushing new code"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ pwd
+/Users/lexx/Desktop/Github_Upload/loan_qualifier_app/Loan_qualifiyer_app-
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ terminal_history.txt
+-bash: terminal_history.txt: command not found
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ 
