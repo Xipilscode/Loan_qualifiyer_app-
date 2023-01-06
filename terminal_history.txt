@@ -285,4 +285,4 @@ nothing to commit, working tree clean
 /Users/lexx/Desktop/Github_Upload/loan_qualifier_app/Loan_qualifiyer_app-
 (base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ terminal_history.txt
 -bash: terminal_history.txt: command not found
-(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$ 
+(base) MacBook-Pro-2:Loan_qualifiyer_app- lexx$   
