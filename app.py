@@ -18,7 +18,6 @@ from qualifier.utils.calculators import (
     calculate_loan_to_value_ratio,
 )
 
-
 from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
