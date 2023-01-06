@@ -27,7 +27,6 @@ def load_csv(csvpath):
         for row in csvreader:
             data.append(row)
     return data
-
  
 def save_csv(output_path, qualifying_loans): 
     """ Uses the csv library to save the qualifying data as a file.
