@@ -1,6 +1,6 @@
 # Project Title
 
-This loan qualifier application is designed to help a lender determine their borrowers eligibility for various bank loans. It utilizes a CSV file containing information on the loans offered by different banks. When the user runs the application, they will be prompted to enter their own personal and financial information. The application will then analyze this information and compare it to the criteria for the loans in the CSV file. Any loans for which the borrower qualifies will be saved in a separate CSV file for the user to review. This tool is intended to make it easier for borrowers to compare their options and find the loan that best fits their needs.
+This loan qualifier application is designed to help a lender to determine their borrowers eligibility for various bank loans. It utilizes a CSV file containing information on the loans offered by different banks. When the user runs the application, they will be prompted to enter their own personal and financial information. The application will then analyze this information and compare it to the criteria for the loans in the CSV file. Any loans for which the borrower qualifies will be saved in a separate CSV file for the user to review. This tool is intended to make it easier for borrowers to compare their options and find the loan that best fits their needs.
 
 ---
 
